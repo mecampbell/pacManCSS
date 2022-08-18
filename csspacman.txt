@@ -1,0 +1,109 @@
+<body>
+<div id='ghost'></div>
+<div id='pacman'></div>
+<div id='square'></div>
+<div id='dot1'></div>
+<div id='dot2'></div>
+<div id='dot3'></div>
+<div id='rectangle'></div>
+<div id='triangle1'></div>
+<div id='triangle2'></div>
+<div id='triangle3'></div>
+<div id='triangle4'></div>
+</body>
+<style>
+  body {
+    background: #000000;
+  }
+  
+  #ghost {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #C74E4E;
+    transform: translate(275px, 112px);
+  }
+
+  #square {
+    height: 32px;
+    width: 60px;
+    background: #C74E4E;
+    transform: translate(275px, 20px);
+  }
+  
+  #pacman {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #E0E246;
+    transform: translate(50px, 50px);
+  }
+
+  #triangle1 {
+    width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 50px solid #000000;
+    border-bottom: 50px solid transparent;
+    transform: translate(80px, -90px);
+  }
+  
+  #dot1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(155px, -15px);
+  }
+  
+  #dot2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(185px, -25px);
+  }
+  
+  #dot3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffff;
+    transform: translate(215px, -35px);
+  }
+
+  #triangle2 {
+    width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid #000000;
+    transform: translate(255px, -120px);
+  }
+  
+  #triangle3 {
+    width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid #000000;
+    transform: translate(275px, -150px);    
+  }  
+  
+  #triangle4 {
+    width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid #000000;
+    transform: translate(295px, -180px);  
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
